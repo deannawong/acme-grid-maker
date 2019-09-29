@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: 'Open Sans Condensed', sans-serif
+}
+h1{
+
+}
+.container{
+    align-items:center;
+    width: 50vw;
+}
+
+input{
+    margin: 1rem 0;
+    width:100%;
+}
+span{
+    margin: 1rem;
+    color:red;
+    font-size: 12px;
+}
+button{
+    width:50vw;
+    height:1.5rem;
+}
+.warning{
+    display:none;
+}
+
+#grid{
+    margin-top: 1rem;
+    display:flex;
+    flex-direction: column;
+}
+.miniBox{
+    display:inline-block;
+    width:1rem;
+    height:1rem;
+    border: 1px solid black;
+}
+.clicked{
+    background-color: dodgerblue;
+}
